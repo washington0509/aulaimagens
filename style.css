@@ -1,3 +1,8 @@
+@font-face {
+    font-family: brasil;
+    src: url(game_over.ttf);
+}
+
 #brasil{
     border: solid 3px green;
     height: 60vh;
@@ -12,4 +17,21 @@
 .brasilimg{
     height: 50vh;
     width: 50vh;
+}
+body{
+    background-image: url(https://i.pinimg.com/originals/e4/2e/28/e42e28f1ae8d2212db9cdf5a60b8ba5d.gif);
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+    color: honeydew;
+    border: solid 10px honeydew;
+    font-family: brasil;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:honeydew
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+
 }
